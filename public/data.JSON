@@ -1,0 +1,82 @@
+[
+    {
+        "img": "https://3.imimg.com/data3/UH/HY/MY-14265938/software-500x500.png",
+        "course": "Computer Fundamentals",
+        "teacher": "Mahmudul Hasan Rana",
+        "courseFee": 5000,
+        "description": "The Fundamentals of Computer Science powered by IBM is hosted by Mahmudul Hasan Rana who is a 4 years experienced teacher in Noakhali Science and Technology University...",
+        "discount": 15,
+        "beginnerLevel": "No prior experience required",
+        "rating": 4
+    },
+    {
+        "img": "https://www.brainkart.com/media/subject/357.jpg",
+        "course": "Computer Architecture and Organization",
+        "teacher": "Abul Hashem",
+        "courseFee": 10000,
+        "description": "The Computer Architecture and Organization powered by IBM is hosted Abul Hashe who is a 5 years experienced teacher in Shajalal University of Science and Technology...",
+        "discount": 10,
+        "beginnerLevel": "Intermediate",
+        "rating": 3
+    },
+    {
+        "img": "https://cdn.educba.com/academy/wp-content/uploads/2019/11/Application-of-Computer-Graphics-1.png",
+        "course": "Computer Graphics",
+        "teacher": "Md. Abdur Rahim",
+        "courseFee": 5000,
+        "description": "The Fundamentals of Computer Graphics powered by Joomla is hosted by Md. Abdur Rahim who is a 4 years experienced teacher in Noakhali Science and Technology University...",
+        "discount": 15,
+        "beginnerLevel": "No prior experience required",
+        "rating": 4
+    },
+    {
+        "img": "https://image.shutterstock.com/image-photo/business-technology-internet-network-concept-260nw-559459693.jpg",
+        "course": "Operating System",
+        "teacher": "Koushik Chandra",
+        "courseFee": 15000,
+        "description": "Operating System is play an important role in Computer Science.The Introduction to Operating System powered by Bell Lab is hosted by Koushik Chandar who is a 5 years experienced teacher in Noakhali Science and Technology University...",
+        "discount": 5,
+        "beginnerLevel": "Advanced",
+        "rating": 4
+    },
+    {
+        "img": "https://www.circuitbasics.com/wp-content/uploads/2020/05/nodal-5-1.png",
+        "course": "Electric Circuit Analysis",
+        "teacher": "Md. Bellal Hossain",
+        "courseFee": 10000,
+        "description": "The Electric Circuit Analysis powered by Sun Microsystem is hosted by Md. Bellal Hossain who graduted from Chittagong University of Engineering and Technology(CUET) .Now teaches at Noakhali Science and Technology University...",
+        "discount": 10,
+        "beginnerLevel": "Advanced",
+        "rating": 3
+    },
+    {
+        "img": "https://lastmomenttuitions.com/wp-content/uploads/2019/08/dsc-mths.png",
+        "course": "Discrete Mathematics",
+        "teacher": "Md. Javed Hossain",
+        "courseFee": 5000,
+        "description": "Discrete Mathematics is a fundamentals subjects of computer science.Md. Javed Hossain who is a 4 years experienced teacher in Noakhali Science and Technology University now serve as this course",
+        "discount": 10,
+        "beginnerLevel": "Intermediate",
+        "rating": 5
+    },
+    {
+        "img": "https://media.geeksforgeeks.org/wp-content/uploads/Programming-Approach.jpg",
+        "course": "Introduction to Structerd Programming",
+        "teacher": "A Q M Salauddin Pathan",
+        "courseFee": 10000,
+        "description": "The Introduction to Structerd Programmig powered by Bell Labs is hosted by A Q M Salauddin Pathan who is a enthusiast at Computer Programming...",
+        "discount": 10,
+        "beginnerLevel": "Beginner",
+        "rating": 5
+    },
+    {
+        "img": "https://www.tutorialspoint.com/computer_fundamentals/images/computer_networks.jpg",
+        "course": "Introduction to Computer Networks",
+        "teacher": "Mrs. Nahid Sultana",
+        "courseFee": 15000,
+        "description": "Computer Networking is now play an important role in every field of computer science Mrs. Nahid Sultana now researching about Telecommunication..",
+        "discount": 15,
+        "beginnerLevel": "Advance",
+        "rating": 4
+    }
+]
