@@ -4,6 +4,7 @@ import { Card, CardGroup, Carousel } from 'react-bootstrap';
 import pic1 from '../slider/pic-1.jpg';
 import pic2 from '../slider/pic-2.jpg';
 import pic3 from '../slider/pic-3.jpg';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     const [data, setData] = useState([]);
@@ -54,49 +55,10 @@ const Home = () => {
                         </Carousel.Item>
                     </Carousel>
                 </div>
-                <div className="container">
-                    <CardGroup>
-                        <Card>
-                            <Card.Img variant="top" src={pic1} />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
-                            </Card.Footer>
-                        </Card>
-                        <Card>
-                            <Card.Img variant="top" src={pic2} />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This card has supporting text below as a natural lead-in to additional
-                                    content.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
-                            </Card.Footer>
-                        </Card>
-                        <Card>
-                            <Card.Img variant="top" src={pic3} />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This card has even longer content than the first to
-                                    show that equal height action.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
-                            </Card.Footer>
-                        </Card>
-                    </CardGroup>
+                <div className="container card-body">
+                    {
+                        data.map(d => <Banner key={d.key} d={d}></Banner>)
+                    }
                 </div>
             </section>
         </div>

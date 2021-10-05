@@ -7,7 +7,7 @@ import Blog from './components/Blog/Blog';
 import Courses from './components/Courses/Courses';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import NotFound from './components/NotFound/NotFound';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Header></Header>
       <Router>
         <Switch>
-          <Route exact path="\">
+          <Route exact path="/">
             <Home></Home>
           </Route>
           <Route path="/home">
@@ -28,9 +28,7 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
+          <Route component={PageNotFound} />
         </Switch>
       </Router>
     </div>

@@ -6,3 +6,9 @@
 .slider img{
     width: 25%;
 }
+
+
+.card-body img{
+    width: 352px;
+    height: 162px;
+}
