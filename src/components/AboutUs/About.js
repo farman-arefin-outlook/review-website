@@ -5,15 +5,12 @@ const About = () => {
         <div>
             <h1>We are very much sincere to our students.</h1>
             <br />
-            <p><h1>Our Location:</h1>
-                <h2>Branch 1 : <small>Banani 10/1 , Central Road, Dhaka</small></h2>
-                <h2>Branch 2 : <small>Mirpur 10 , Shah Ali Plaza, Dhaka</small></h2>
-                <h2>Branch 3 : <small>Gulshan 1 , Central Road, Dhaka</small></h2>
-                <h2>Branch 4 : <small>Dhanmondi 22/2 , Central Road, Dhaka</small></h2>
-                <h2>Branch 5 : <small>Mohammadpur 11/121, Dhaka</small></h2>
-                <h2>Branch 6 : <small>Maijdee ,Housing State, Noakhali</small></h2>
-                <h2>Branch 7 : <small>Adarsha Road , Kushtia Sadar, Kushtia</small></h2>
-                <h2>Branch 8 : <small>Poduar Bazar , Central Road, Cumilla</small></h2>
+            <p>
+                People tend to think that "About Us" pages have to sound formal to gain credibility and trust. But most people find it easier to trust real human beings, rather than a description that sounds like it came from an automaton. Trying to sound too professional on your "About Us" page results in stiff, “safe” copy and design -- the perfect way to make sure your company blends in with the masses.
+
+                Instead, Eight Hour Day showcases the people behind the company and humanizes its brand. Introducing the founders by name and featuring the photos of them on the "About Us" page drives home the point that Nathan and Katie are -- as they so astutely put it -- "two individuals with a passion for creativity -- creativity makes us happy."
+
+                When you’re designing your "About Us" page, avoid industry jargon and replace it with an authentic voice -- yours -- to describe your product or service. Sure, it needs to be polished and free of errors, but it should always sound friendly and real.
             </p>
         </div>
     );

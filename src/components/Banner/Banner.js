@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { Card, CardGroup, Col, Row } from 'react-bootstrap';
+import { Card, CardGroup, Col, Row, Button } from 'react-bootstrap';
 
 const Banner = (props) => {
     const { img, course, teacher, courseFee, description, discount, beginnerLevel, rating } = props.d;
@@ -17,6 +18,7 @@ const Banner = (props) => {
                             <p>
                                 <small>Discount : {discount}%</small>
                             </p>
+                            <Button variant="dark">Buy Now</Button>{' '}
                         </Card.Text>
                         <Card.Footer>
                             <small>{beginnerLevel}</small>
@@ -33,6 +35,7 @@ const Banner = (props) => {
                             <p>
                                 <small>Discount : {discount}%</small>
                             </p>
+                            <Button variant="dark">Buy Now</Button>{' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -49,6 +52,7 @@ const Banner = (props) => {
                             <p>
                                 <small>Discount : {discount}%</small>
                             </p>
+                            <Button variant="dark">Buy Now</Button>{' '}
                         </Card.Text>
                         <Card.Footer>
                             <small>{beginnerLevel}</small>

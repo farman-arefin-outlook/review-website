@@ -7,6 +7,12 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import About from "../AboutUs/About";
+import Blog from "../Blog/Blog";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
+import Home from "../Home/Home";
+import PageNotFound from "../PageNotFound/PageNotFound";
 const NavbarComp = () => {
     return (
         <Router>
@@ -24,10 +30,11 @@ const NavbarComp = () => {
                                 <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
                                 <Nav.Link as={Link} to={"/blog"}>Blogs</Nav.Link>
                                 <NavDropdown title="Courses" id="navbarScrollingDropdown">
-                                    <NavDropdown.Item href="#action3">Data Structure</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action4">Networking</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action1">Data Structure</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action2">Networking</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action3">Operating System</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action5">
+                                    <NavDropdown.Item href="#action4">
                                         System Administration
                                     </NavDropdown.Item>
                                 </NavDropdown>
@@ -46,6 +53,28 @@ const NavbarComp = () => {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
+            </div>
+            <div>
+                <Switch>
+                    <Route path="/home">
+                        <Home></Home>
+                    </Route>
+                    <Route path="/blog">
+                        <Blog></Blog>
+                    </Route>
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
+                    <Route path="/about">
+                        <About></About>
+                    </Route>
+                    <Route path="/contact">
+                        <Contact></Contact>
+                    </Route>
+                    <Route path="*">
+                        <PageNotFound></PageNotFound>
+                    </Route>
+                </Switch>
             </div>
         </Router>
     );
